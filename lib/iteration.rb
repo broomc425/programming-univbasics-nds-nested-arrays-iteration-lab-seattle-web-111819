@@ -11,7 +11,7 @@ def join_ingredients(src)
   
   while i < src.length do
     inner = src[i]
-    puts "I love #{inner[0] and #{inner[1] on my pizza"
+    puts "I love #{inner[0]} and #{inner[1]} on my pizza"
     i += 1
   end
   result
@@ -25,11 +25,11 @@ def find_greater_pair(src)
   result = []
   i = 0
   
-  while i < src.length
-  result << (#{src[i][0] > (#{src[i][1] ? #{src[i][0] : (#{src[i][1])
-  i += 1
-end
-result
+  while i < src.length do
+    result << (src[i][0] > src[i][1] ? src[i][0] : src[i][1])
+    i += 1
+  end
+  result
 end
 
 def total_even_pairs(src)
